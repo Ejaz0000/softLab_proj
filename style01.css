@@ -1,8 +1,9 @@
-
+/* Styling for smaller screens */
 @media only screen and (max-width: 599px) {
 
-body {
-    font-family: Arial, sans-serif;
+  /* Body styles */
+  body {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,11 +11,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(254, 246, 237);
-    
+    background-color: #f4f5fa;
+
   }
 
-  .header{
+  /* Header container styles */
+  .header {
     width: 100%;
     min-height: 25%;
     margin-bottom: auto;
@@ -22,41 +24,42 @@ body {
     position: relative;
   }
 
-  .header_img01{
+  /* First header image styles with adjusted position */
+  .header_img01 {
     position: absolute;
     transform: translateY(-38%) translateX(-25%);
   }
 
-  .header_img02{
+  /* Seconde header image styles with adjusted position */
+  .header_img02 {
     position: absolute;
-    transform: translateY(-38.5%) translateX(-30%) scaleX(-1) rotate(-15deg);;
+    transform: translateY(-38.5%) translateX(-30%) scaleX(-1) rotate(-15deg);
+    ;
   }
 
-
-
-
-  .workout_img{
+  /* Workout image styles */
+  .workout_img {
     margin-bottom: 20px;
   }
 
+  /* Heading styles */
   h2 {
     text-align: center;
     margin-bottom: 50px;
   }
 
-  .name_text{
+  /* Name in the heading text styles */
+  .name_text {
     color: goldenrod;
   }
 
-  .next_text{
-    font-size: small;
-  }
-
-  .steps{
+  /* Step indicator styles */
+  .steps {
     font-size: small;
     color: green;
   }
 
+  /* Form container styles */
   .container {
     width: 80%;
     margin-top: 20px;
@@ -66,25 +69,26 @@ body {
     align-items: center;
   }
 
+  /* Form input styles */
   input {
     width: 100%;
-    padding: 15px;
+    padding: 18px;
     padding-left: 30px;
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
     box-sizing: border-box;
-    background-color: white; 
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    box-shadow: 0px 4px 8px 2px rgba(78, 78, 78, 0.1);
   }
 
-  input::placeholder{
+  /* Placeholder styles */
+  input::placeholder {
     color: #000;
   }
 
-
-
-  .bottom{
+  /* Bottom section styles */
+  .bottom {
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -93,13 +97,21 @@ body {
     margin-bottom: 20%;
   }
 
-  .next{
+  /* Next button container styles */
+  .next {
     margin-left: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  /* Next button text styles */
+  .next_text {
+    font-size: small;
+  }
+
+
+  /* Next button styles */
   .next_button {
     width: 50px;
     height: 50px;
@@ -113,6 +125,6 @@ body {
     margin-bottom: 10px;
   }
 
-  
+
 
 }
