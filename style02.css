@@ -1,0 +1,227 @@
+
+@media only screen and (max-width: 599px) {
+
+html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: rgb(254, 246, 237);
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .header {
+    background-image: url("assets/brooke-lark-nBtmglfY0HU-unsplash.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+    width: 100%;
+    min-height: 360px;
+    border-radius: 0px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 12%;
+   position: absolute;
+   width: 80%;
+   
+  }
+
+  .back_button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .back_button img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+  }
+
+  .love_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .love_button img{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 12px auto;
+  }
+
+  .header_img01{
+    transform: translateY(-15%);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  h4{
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+  }
+
+  .sub_info{
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: white; 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nutrition_info h4 {
+    font-size: 18px;
+    text-align: center;
+    font-weight:normal;
+    color: #b37575;
+  }
+
+  .info_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .info_row p {
+    text-align: center;
+    font-size: 12px;
+    color: #b88787;
+  }
+  
+  .nutritions span {
+    font-size: 22px;
+    font-weight: bold;
+    color: #01010f;
+  }
+
+  .nutritions p:first-child span{
+    color: #b88787;
+  }
+
+  .ingredient_info h4{
+    font-size: 20px;
+  }
+  
+  .ingredients{
+    gap: 20px;
+  }
+  
+  .ingredients_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ingredients div p{
+    color: #01010f;
+  }
+
+  .ingredients div:first-child .ingredients_img{
+    transform: translateY(4px);
+  }
+
+  .preparation_info h4{
+    font-size: 20px;
+  }
+
+  .footer {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
+    text-align: center;
+    gap: 12px;
+ }
+ 
+
+ .home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 195, 68);
+    width: 20%;
+    height: 35px;
+    border-radius: 20px ;
+    gap: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+
+ .home p{
+    color: white;
+    font-weight: bold;
+ }
+
+ /* .home_img{
+    width: 30px;
+    height: 30px;
+ } */
+ .other_bottons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+ }
+ .other_bottons img{
+    width: 25px;
+    height: 25px;
+ }
+
+}
